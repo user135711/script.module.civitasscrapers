@@ -18,9 +18,9 @@ In the history of Rome, the Latin term civitas, according to Cicero in the time 
 You can add the source directory to your own repository for convenience and updates
 ```
 <dir>
-    <info compressed="false">https://raw.githubusercontent.com/civitasadmin/Civitas/master/_scrapers/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/civitasadmin/Civitas/master/_scrapers/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/civitasadmin/Civitas/master/_scrapers/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/civitasadmin/_scrapers/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/civitasadmin/_scrapers/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/civitasadmin/_scrapers/master/</datadir>
 </dir>
 ```
 # How to Import Civitas Scrapers Into Any Addon
