@@ -14,7 +14,7 @@
         <setting id="provider.0123putlocker" type="bool" label="$NUMBER[0123]PUTLOCKER" default="false" /> 
         <setting id="provider.123fox" type="bool" label="$NUMBER[123]FOX" default="true" /> 
         <setting id="provider.123hbo" type="bool" label="$NUMBER[123]HBO" default="true" /> 
-        <setting id="provider.123hulu" type="bool" label="$NUMBER[123]HULU" default="true" />  
+        <setting id="provider.123hulu" type="bool" label="$NUMBER[123]HULU" default="false" />  
         <setting id="provider.123movieshubz" type="bool" label="$NUMBER[123]MOVIESHUBZ" default="true" />
         <setting id="provider.300mbdownload" type="bool" label="$NUMBER[300]MBDOWNLOAD" default="false" /> 
         <setting id="provider.bnwmovies" type="bool" label="BNWMOVIES" default="false" />  
@@ -44,8 +44,8 @@
         <setting id="provider.primewire" type="bool" label="PRIMEWIRE" default="true" />  
         <setting id="provider.putlocker" type="bool" label="PUTLOCKER" default="true" />
         <setting id="provider.reddit" type="bool" label="REDDIT" default="true" /> 
-        <setting id="provider.rlsbb" type="bool" label="RLSBB" default="false" /> 
-        <setting id="provider.scnsrc" type="bool" label="SCNSRC" default="false" /> 
+        <setting id="provider.rlsbb" type="bool" label="RLSBB" default="true" /> 
+        <setting id="provider.scnsrc" type="bool" label="SCNSRC" default="true" /> 
         <setting id="provider.seehd" type="bool" label="SEEHD" default="true" />  
         <setting id="provider.series9" type="bool" label="SERIES9" default="true" /> 
         <setting id="provider.seriesfree" type="bool" label="SERIESFREE" default="false" />  

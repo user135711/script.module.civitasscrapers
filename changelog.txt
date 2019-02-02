@@ -1,4 +1,6 @@
 CivitasScrapers Module Changelog:
+0.0.5.3
+- adjust defaults
 0.0.5.1
 - icon
 0.0.4
