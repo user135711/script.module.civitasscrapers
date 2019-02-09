@@ -10,7 +10,7 @@
         <setting type="sep" />
         <setting id="provider.4kmovieto" type="bool" label="$NUMBER[4]KMOVIETO" default="false" /> 
         <setting id="provider.animetoon" type="bool" label="ANIMETOON" default="false" />
-        <setting id="provider.azmovie" type="bool" label="AZMOVIE" default="false" /> 
+        <setting id="provider.azmovie" type="bool" label="AZMOVIE" default="true" /> 
         <setting id="provider.0123putlocker" type="bool" label="$NUMBER[0123]PUTLOCKER" default="false" /> 
         <setting id="provider.123fox" type="bool" label="$NUMBER[123]FOX" default="true" /> 
         <setting id="provider.123hbo" type="bool" label="$NUMBER[123]HBO" default="true" /> 
@@ -22,7 +22,8 @@
         <setting id="provider.cmovieshd" type="bool" label="CMOVIESHD" default="false" /> 
         <setting id="provider.cmovieshdbz" type="bool" label="CMOVIESHDBZ" default="false" /> 
         <setting id="provider.coolmoviezone" type="bool" label="COOLMOVIEZONE" default="false" />  
-        <setting id="provider.extramovies" type="bool" label="EXTRAMOVIES" default="true" /> 
+        <setting id="provider.extramovies" type="bool" label="EXTRAMOVIES" default="true" />
+        <setting id="provider.downflix" type="bool" label="DOWNFLIX" default="true" /> 
         <setting id="provider.fmovies" type="bool" label="FMOVIES" default="true" />  
         <setting id="provider.freefmovies" type="bool" label="FREEFMOVIES" default="true" />  
         <setting id="provider.freeputlockers" type="bool" label="FREEPUTLOCKERS" default="true" />  
@@ -39,7 +40,8 @@
         <setting id="provider.movietoken" type="bool" label="MOVIETOKEN" default="false" />
         <setting id="provider.myprojectfreetv" type="bool" label="MYPROJECTFREETV" default="false" />
         <setting id="provider.openloadmovie" type="bool" label="OPENLOADMOVIE" default="true" /> 
-        <setting id="provider.ororo" type="bool" label="ORORO" default="false" /> 
+        <setting id="provider.ororo" type="bool" label="ORORO" default="false" />
+        <setting id="provider.odb" type="bool" label="ODB" default="true" /> 
         <setting id="provider.plocker" type="bool" label="PLOCKER" default="false" />  
         <setting id="provider.primewire" type="bool" label="PRIMEWIRE" default="true" />  
         <setting id="provider.putlocker" type="bool" label="PUTLOCKER" default="true" />
@@ -58,6 +60,7 @@
         <setting id="provider.watchseries" type="bool" label="WATCHSERIES" default="false" />  
         <setting id="provider.xwatchseries" type="bool" label="XWATCHSERIES" default="true" /> 
         <setting id="provider.vdonip" type="bool" label="VDONIP" default="true" />
+        <setting id="provider.ymovies" type="bool" label="YMOVIES" default="true" />
     </category>
 
     <category label="Foreign">
@@ -139,9 +142,11 @@
         <setting label="Enable All Torrent Providers" type="action" option="close" action="RunPlugin(plugin://script.module.civitasscrapers/?mode=toggleAllTorrent&amp;setting=true&amp;open_id='1.2')"/>
         <setting type="sep" />
         <setting id="provider.bitlord" type="bool" label="BITLORD" default="true" />
-        <setting id="provider.torrentapi" type="bool" label="TORRENTAPI" default="true" />
+        <setting id="provider.eztv" type="bool" label="EZTV" default="true" />
         <setting id="provider.piratebay" type="bool" label="PIRATEBAY" default="true" />
+        <setting id="provider.torrentapi" type="bool" label="TORRENTAPI" default="true" />
         <setting id="provider.yify" type="bool" label="YIFY" default="true" />
+        <setting id="provider.zoogle" type="bool" label="ZOOGLE" default="true" />
     </category>
 <!--    <category label="Debug">\-->
 <!--        <setting id="addon_debug" type="bool" label="Enable Debug" default="false" />-->

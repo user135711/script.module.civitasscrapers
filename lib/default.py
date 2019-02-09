@@ -97,12 +97,13 @@ if mode == "toggleAllForeign":
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
 if mode == "toggleAllTorrent":
-    sourcelist = ['bitlord','torrentapi','yify','vdonip','piratebay']
+    sourcelist = ['bitlord','torrentapi','yify','vdonip','piratebay','eztv','zoogle']
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
 if mode == "Defaults":
     sourcelist = ['123fox','123hbo','123movieshubz','animetoon','azmovies','bnwmovies','cartoonhd',
     'extramovies','fmovies','freefmovies','freeputlockers','gostream','Hdmto','hdpopcorns',
     'kattv','l23movies','iwaatch','openloadmovie','primewire','putlocker','reddit','rlsbb','scenerls',
-    'seehd','series9','seriesfree','seriesonline','solarmoviez','tvbox','vidics','watchseries','xwatchseries','vdonip']
+    'seehd','series9','seriesfree','seriesonline','solarmoviez','tvbox','vidics','watchseries',
+    'xwatchseries','vdonip','odb','downflix','ymovies']
     toggleAll(params['setting'], params['open_id'], sourcelist)
